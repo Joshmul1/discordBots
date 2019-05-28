@@ -16,7 +16,6 @@ client.on(`message`, message =>{
         if(message.content.startsWith(`${prefix}`)){
          isReady = false;
          var messageContent = message.content.substring(prefix.length+1);
-         console.log("after !sponge we have '"+messageContent+ "'");
          messageContent = messageContent.toLowerCase();
          var newMessage='';
          for (var i = 0; i < messageContent.length; i++) {
@@ -28,6 +27,7 @@ client.on(`message`, message =>{
             }
          var channel = message.channel.id;
          client.channels.get(channel).send(newMessage);
+         isReady = true;
 
 
 
