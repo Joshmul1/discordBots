@@ -5,8 +5,6 @@ const Discord = require(`discord.js`);
 var isReady = true;
 const client = new Discord.Client();
 
-
-
 client.once('ready', () => {
     console.log(`Client Loaded`);
 });
@@ -28,18 +26,8 @@ client.on(`message`, message => {
             var channel = message.channel.id;
             client.channels.get(channel).send(newMessage);
             isReady = true;
-
-
-
-
         }
     }
-
-
-
 });
-
-
-
 
 client.login(api_token);
