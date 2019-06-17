@@ -1,5 +1,5 @@
 var config = require('./config.json');
-var api_token = config.discord_api_token;
+var api_token = config.api_token;
 const Discord = require(`discord.js`);
 var isReady = true;
 const client = new Discord.Client();
