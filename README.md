@@ -10,7 +10,7 @@ This allows you to change the server region from chat. This currently only suppo
 ### Usages:
 * Type '!reg \<region>' 
   
-### <region> syntax 
+### \<region> syntax 
 * 'EUW' | | 'euw' for EU-West
 * 'EUC' | | 'euc' for EU-Central
 
