@@ -50,8 +50,8 @@ client.on(`message`, message => {
                     message.channel.send("The server is already in EU-Central. Try send ``` !reg EUW ``` to move it to EU-West instead");
                 }
             } else {
-                message.channel.send("Sorry but the argument ``` " + messageContent + " ```passed in is not valid. \n" +
-                    "The current uses are ``` !reg EUW || !reg EUC ```  for EU-West and EU-Central regions respectively");
+                message.channel.send("Sorry but the argument ` " + messageContent + " `passed in is not valid. \n" +
+                    "The current uses are `!reg EUW || !reg EUC`  for EU-West and EU-Central regions respectively");
 
             }
             isReady = true;
