@@ -1,5 +1,8 @@
 # discordBots
 
+A bot to run in discord servers. Currently allows simple region changes for all users to reduce the need for altering role permissions.
+Also allows messages to be converted to the sponge-bob meme format.
+
 ## Server Region
 This allows you to change the server region from chat. This currently only supports EU-West and EU-Central server regions
 ### Usages:
