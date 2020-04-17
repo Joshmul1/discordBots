@@ -1,10 +1,9 @@
 var config = require('./config.json');
-var api_token = config.api_token;
 const Discord = require(`discord.js`);
-var isReady = true;
+var api_token = config.api_token;
 const client = new Discord.Client();
 
-
+var isReady = true;
 // prefixes
 const sponge_prefix = '!sponge';
 const region_prefix = '!reg';
